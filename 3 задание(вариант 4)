@@ -1,0 +1,13 @@
+try:
+    print("Enter the First number: ")
+    num1 = input("")
+    print("Enter the Second number: ")
+    num2 = input("")
+    print("Enter the third number: ")
+    num3 = input("")
+    print("Enter the four number: ")
+    num4 = input("")
+    average = int(num1) + int(num2) + int(num3) + int(num4) / 4
+    print("The average of ", num1, ",", num2, ",", num3, ",", num4, " is: ", average)
+except ValueError:
+    print("Ошибка! Написано не целое число!")
