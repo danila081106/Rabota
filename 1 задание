@@ -1,0 +1,24 @@
+print("Введите два числа: ")
+a = input("")
+b = input("")
+print('Вы ввели числа: ' + a,  "и",  b)
+print('Какое действие выполнить?')
+print("1. Сложение")
+print("2. Вычитание")
+print("3. Умножение")
+print("4. Деление")
+choice = input("")
+if choice == '1':
+    s =  int(a)  + int(b)
+    print('Результат: ' + f'{a} + {b} = {s}')
+elif choice == '2':
+    s =  int(a) - int(b)
+    print('Результат: ' + f'{a} - {b} = {s}')
+elif choice == '3':
+    s =  int(a)  * int(b)
+    print('Результат: ' + f'{a} * {b} = {s}')
+elif choice == '4':
+    s =  int(a) / int(b)
+    print('Результат: ' + f'{a} / {b} = {s}')
+else:
+    print("Такого действия нет")
